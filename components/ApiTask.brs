@@ -1,6 +1,6 @@
 sub init()
     m.top.functionName = "loadData"
-    m.apiUrl = "https://your-backend.example.com/api/timer"
+    m.apiUrl = GetApiUrl()
 end sub
 
 sub loadData()

@@ -27,4 +27,4 @@ splash_color=#000000
 splash_min_time=1
 
 ##   Avoid screensaver during timer
-ui_screensaver_timeout=0
+ui_screen_saver_timeout=0

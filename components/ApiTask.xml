@@ -7,6 +7,7 @@
         <field id="error" type="string" />
     </interface>
 
+    <script type="text/brightscript" uri="pkg:/components/Config.brs"/>
     <script type="text/brightscript" uri="pkg:/components/ApiTask.brs"/>
 
 </component>

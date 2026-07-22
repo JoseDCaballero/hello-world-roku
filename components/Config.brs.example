@@ -1,0 +1,3 @@
+function GetApiUrl() as string
+    return "https://your-backend.example.com/api/timer"
+end function
