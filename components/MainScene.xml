@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="MainScene" extends="Scene">
+
+    <script type="text/brightscript" uri="pkg:/components/MainScene.brs" />
+
+    <children>
+
+        <Rectangle
+            width="1280"
+            height="720"
+            color="0x000000FF" />
+
+        <Label
+            id="dateTimeLabel"
+            text=""
+            horizAlign="center"
+            vertAlign="center"
+            width="1280"
+            height="80"
+            translation="[0,110]" />
+
+        <Label
+            id="timerLabel"
+            text="00:00"
+            horizAlign="center"
+            vertAlign="center"
+            width="1280"
+            height="260"
+            translation="[0,200]" />
+
+        <Label
+            id="subtitleLabel"
+            text="TIEMPO RESTANTE"
+            horizAlign="center"
+            vertAlign="center"
+            width="1280"
+            height="90"
+            translation="[0,440]" />
+
+        <Timer
+            id="countdownTimer"
+            repeat="true"
+            duration="1" />
+
+        <Timer
+            id="syncTimer"
+            repeat="true"
+            duration="3" />
+
+        <Timer
+            id="clockTimer"
+            repeat="true"
+            duration="1" />
+
+    </children>
+
+</component>
